@@ -2,8 +2,6 @@ import os
 
 from modules import cmd_opts, ui
 
-# なんか知らんが湧いて出てくる ".DS_Store"　を無視する。
-# ここにこんなコードを置くべきかはわからないけど…
 _list_dir = os.listdir
 
 def listdir4mac(path):
